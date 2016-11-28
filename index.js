@@ -13,7 +13,7 @@ module.exports = function (opts) {
   console.log(gulpTasks);
   
   
-  all.gulp = {
+  all.tasks.gulp = {
     prefix: 'gulp',
     tasks: gulpTasks
   }
